@@ -31,3 +31,9 @@ h2 {
 .bio {
 	background-image:url('images/green_cup.png');
 }
+
+.bio h3 {
+	font-family: 'Helvetica';
+	font-weight: 400;
+	color: #4C4C4C;
+}
