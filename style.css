@@ -2,19 +2,20 @@ body, html {
 	height: 100%;
 	margin: 0;
 	padding: 0;
+	background-image:url('images/green_cup.png');
 }
 
 /*Header*/
 .header {
-	margin-bottom: 0px;
-	margin-top: 20px;
-	height: 10%
+	padding-bottom: 30px;
+	height: 12.5%;
+	background-color: white;
 }
 
 .header img, .header h1, .header h2 {
 	display: inline-block;
 	margin-right: 30px;
-	margin-top: 0px;
+	margin-top: 20px;
 	vertical-align: bottom;
 }
 
@@ -51,16 +52,8 @@ h2 a:visited {
 	color: black;
 }
 
-/*Content*/
-.content {
-	background-image:url('images/green_cup.png');
-	min-height: 90%;
-	padding-top: 0px;
-}
-
 /*Bio*/
 .bio {
-	height: 250px;
 	width: 500px;
 	margin-top: 40px;
 	margin-left: 20px;
@@ -75,6 +68,10 @@ h2 a:visited {
 }
 
 .bio h1 {
+	padding-top: 10px;
+}
+
+.bio h2 {
 	margin-top: 0px;
 }
 
@@ -82,4 +79,8 @@ h2 a:visited {
 	font-family: 'Helvetica';
 	font-weight: 400;
 	color: #4C4C4C;
+}
+
+.bio .links {
+	padding-bottom: 10px;
 }
