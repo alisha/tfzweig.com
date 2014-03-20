@@ -33,6 +33,11 @@ h2 a:visited {
 	background-color: white;
 }
 
+.header .navigation {
+	float: right;
+	margin-right: 25px;
+}
+
 .header img, .header h1, .header h2 {
 	display: inline-block;
 	margin-right: 16px;
