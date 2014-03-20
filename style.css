@@ -28,14 +28,14 @@ h2 a:visited {
 
 /*Header*/
 .header {
-	padding-bottom: 30px;
+	padding-bottom: 0px;
 	height: 12.5%;
 	background-color: white;
 }
 
 .header img, .header h1, .header h2 {
 	display: inline-block;
-	margin-right: 30px;
+	margin-right: 16px;
 	margin-top: 20px;
 	vertical-align: bottom;
 }
