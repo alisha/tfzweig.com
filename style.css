@@ -60,11 +60,18 @@ h2 a:visited {
 
 /*Bio*/
 .bio {
+	height: 250px;
+	width: 500px;
+	margin-top: 40px;
+	margin-left: 20px;
 	background-color: white;
-	height: 20px;
-	margin-top: 20px;
-	position: absolute;
-	top:100;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 10px;
+}
+
+.bio h1, h2, h3, .links {
+	margin-left: 10px;
 }
 
 .bio h1 {
