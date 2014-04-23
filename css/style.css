@@ -6,6 +6,10 @@ body, html {
 	background-image:url('images/green_cup.png');
 }
 
+body {
+	padding-top: 50px;
+}
+
 h1 {
 	font-size: 2.5em;
 	font-family: 'Helvetica';
@@ -26,49 +30,11 @@ h2 a:visited {
 	color: black;
 }
 
-/*Header*/
-.header {
-	padding-bottom: 0px;
-	height: 12.5%;
-	background-color: white;
-}
-
-.header .navigation {
-	float: right;
-	margin-right: 25px;
-}
-
-.header img, .header h1, .header h2 {
-	display: inline-block;
-	margin-right: 16px;
-	margin-top: 20px;
-	vertical-align: bottom;
-}
-
-.header h1 {
-	margin-right: 40px;
-	font-weight: 400;
-	color: #202020;
-}
-
-.header h2 {
-	font-weight: 100;
-}
-
-.header img {
-	height: 50px;
-	vertical-align: top;
-	margin-left: 50px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-}
-
 /*Bio*/
 .bio {
-	width: 500px;
 	margin-top: 40px;
-	margin-left: 50px;
+	margin-left: 2%;
+	width: 380px;
 	background-color: white;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
