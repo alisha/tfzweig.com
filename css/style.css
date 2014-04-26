@@ -44,8 +44,8 @@ h2 {
 	float: right;
 }
 
-/*Bio*/
-.bio {
+/*Content*/
+.content {
 	margin-top: 40px;
 	margin-left: 2%;
 	width: 380px;
@@ -55,31 +55,31 @@ h2 {
 	border-radius: 10px;
 }
 
-.bio h1, h2, h3, .links {
+.content h1, h2, h3, .links {
 	margin-left: 10px;
 }
 
-.bio h1 {
+.content h1 {
 	padding-top: 10px;
 	margin-bottom: 5px;
 	font-weight: 400;
 	color: #202020;
 }
 
-.bio h2 {
+.content h2 {
 	margin-top: 0px;
 	margin-bottom: 0px;
 	font-weight: 300;
 }
 
-.bio h3 {
+.content h3 {
 	font-family: 'Helvetica';
 	font-weight: 400;
 	color: #4C4C4C;
 	margin-top: 5px;
 }
 
-.bio .links {
+.content .links {
 	padding-bottom: 10px;
 }
 
